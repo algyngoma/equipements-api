@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "nom": "Serveur-01",
+  "categorie": "serveur",
+  "ip": "10.0.0.5",
+  "adresse_mac": "AA:BB:CC:DD:EE:FF",
+  "emplacement": "Salle B",
+  "status": "up",
+  "type": "server",
+  "date_ajout": "2024-11-25T10:00:00Z"
+}

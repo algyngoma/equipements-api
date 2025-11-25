@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nom": "Serveur-01",
+    "categorie": "serveur",
+    "ip": "10.0.0.10",
+    "adresse_mac": "AA:BB:CC:DD:EE:01",
+    "emplacement": "Salle Serveurs",
+    "status": "up",
+    "type": "server",
+    "date_ajout": "2024-11-25T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "nom": "Serveur-02",
+    "categorie": "serveur",
+    "ip": "10.0.0.11",
+    "adresse_mac": "AA:BB:CC:DD:EE:02",
+    "emplacement": "Salle Serveurs",
+    "status": "maintenance",
+    "type": "server",
+    "date_ajout": "2024-11-25T08:05:00Z"
+  },
+  {
+    "id": 3,
+    "nom": "Switch-Core-01",
+    "categorie": "reseau",
+    "ip": "10.0.1.1",
+    "adresse_mac": "AA:BB:CC:DD:EE:03",
+    "emplacement": "Salle Réseau",
+    "status": "up",
+    "type": "switch",
+    "date_ajout": "2024-11-25T08:10:00Z"
+  },
+  {
+    "id": 4,
+    "nom": "Switch-Access-01",
+    "categorie": "reseau",
+    "ip": "10.0.1.2",
+    "adresse_mac": "AA:BB:CC:DD:EE:04",
+    "emplacement": "Étage 1",
+    "status": "up",
+    "type": "switch",
+    "date_ajout": "2024-11-25T08:20:00Z"
+  },
+  {
+    "id": 5,
+    "nom": "Switch-Access-02",
+    "categorie": "reseau",
+    "ip": "10.0.1.3",
+    "adresse_mac": "AA:BB:CC:DD:EE:05",
+    "emplacement": "Étage 2",
+    "status": "down",
+    "type": "switch",
+    "date_ajout": "2024-11-25T08:30:00Z"
+  },
+  {
+    "id": 6,
+    "nom": "Routeur-Frontier-01",
+    "categorie": "reseau",
+    "ip": "10.0.2.1",
+    "adresse_mac": "AA:BB:CC:DD:EE:06",
+    "emplacement": "Local Technique",
+    "status": "up",
+    "type": "router",
+    "date_ajout": "2024-11-25T08:40:00Z"
+  },
+  {
+    "id": 7,
+    "nom": "Routeur-Backup-01",
+    "categorie": "reseau",
+    "ip": "10.0.2.2",
+    "adresse_mac": "AA:BB:CC:DD:EE:07",
+    "emplacement": "Local Technique",
+    "status": "up",
+    "type": "router",
+    "date_ajout": "2024-11-25T08:45:00Z"
+  },
+  {
+    "id": 8,
+    "nom": "VM-Database",
+    "categorie": "vm",
+    "ip": "10.0.3.10",
+    "adresse_mac": "AA:BB:CC:DD:EE:08",
+    "emplacement": "Cluster KVM",
+    "status": "up",
+    "type": "vm",
+    "date_ajout": "2024-11-25T08:50:00Z"
+  },
+  {
+    "id": 9,
+    "nom": "VM-Frontend",
+    "categorie": "vm",
+    "ip": "10.0.3.20",
+    "adresse_mac": "AA:BB:CC:DD:EE:09",
+    "emplacement": "Cluster KVM",
+    "status": "up",
+    "type": "vm",
+    "date_ajout": "2024-11-25T08:55:00Z"
+  },
+  {
+    "id": 10,
+    "nom": "Firewall-01",
+    "categorie": "securite",
+    "ip": "10.0.4.1",
+    "adresse_mac": "AA:BB:CC:DD:EE:10",
+    "emplacement": "Salle Sécurité",
+    "status": "up",
+    "type": "firewall",
+    "date_ajout": "2024-11-25T09:00:00Z"
+  }
+]
