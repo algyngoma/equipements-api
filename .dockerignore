@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# FastAPI
+app/__pycache__/
+app/*/__pycache__/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.local
+.env.development
+.env.production
+
+# Node / React
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Docker
+docker-compose.override.yml
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
