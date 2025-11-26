@@ -1,6 +1,6 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 .venv/
@@ -8,34 +8,43 @@ env/
 venv/
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# FastAPI
+# FastAPI / app
 app/__pycache__/
 app/*/__pycache__/
 
 # Logs
 *.log
+logs/
+*.log.*
 
-# Env
+# Env (on ne copie jamais ça dans l'image)
 .env
-.env.local
-.env.development
-.env.production
+.env.*
+!.env.example
 
-# Node / React
+# Node / React (pour plus tard)
 node_modules/
 dist/
 build/
 .cache/
 coverage/
+*.tsbuildinfo
 
 # Docker
 docker-compose.override.yml
 *.zip
+*.tar
+*.tar.gz
 
-# IDE
+# IDE / Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System
 .DS_Store

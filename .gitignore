@@ -1,23 +1,38 @@
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 
 # Virtual environments
+.venv/
 venv/
 env/
 
-# Editor files
+# Outils / analyse / tests
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Fichiers d'environnement (secrets)
+.env
+.env.*
+!.env.example
+
+# IDE / éditeurs
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# pytest cache
-.pytest_cache/
